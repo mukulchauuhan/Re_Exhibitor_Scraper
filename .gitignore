@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local secrets/keys
+creds.json
+*.pem
+*.key
+
+# Large artifacts / outputs
+re_exhibitors.csv
+re_exhibitors.xlsx
+
+# Notebooks (if any)
+.ipynb_checkpoints/
+
+# Selenium downloads (if any)
+selenium-screenshots/
+drivers/
